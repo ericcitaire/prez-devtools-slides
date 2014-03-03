@@ -2,8 +2,8 @@ var SLIDE_CONFIG = {
   // Slide settings
   settings: {
     title: 'Chrome DevTools',
-    subtitle: 'Comment booster sa productivit&eacute;<br>de d&eacute;veloppement web',
-    //eventTitle: 'Google I/O 2013',
+    subtitle: 'peut faire tout ça ???',
+    eventTitle: 'Campus Dev du 10 mars 2014',
     useBuilds: true, // Default: true. False will turn off slide animation builds.
     usePrettify: true, // Default: true
     enableSlideAreas: true, // Default: true. False turns off the click areas on either slide of the slides.
