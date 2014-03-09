@@ -1,78 +1,65 @@
-title: Slide Title
-subtitle: Subtitle
-class: image
+title: DevTools, à quoi ça sert?
+build_lists: true
 
-![Mobile vs desktop users](image.png)
+- Débugger
+- Inspecter
+- Mesurer
+- Prototyper
 
 ---
 
-title: Segue Slide
-subtitle: Subtitle
+title: Un peu d'histoire
+
+[Evolution des navigateurs et technos Web](http://evolutionofweb.appspot.com/#/evolution/day)
+
+![Evolution des navigateurs et technos Web](images/evolutionofweb.png)
+
+---
+
+title: Les Developer Tools: une grande famille
+
+- Firebug (extension Firefox)
+- Chrome Developer Tools
+- Firefox Developer Tools
+- IE Developer Tools
+- Safari Developer Tools
+- Opera Dragonfly
+- Firebug Lite (extension IE, Safari, Chrome, Opera)
+
+---
+
+title: Les Developer Tools: une grande famille
+
+- Firebug (extension Firefox)
+- Chrome Developer Tools
+- Firefox Developer Tools
+- IE Developer Tools
+- Safari Developer Tools
+- Opera Dragonfly
+- Firebug Lite (extension IE, Safari, Chrome, Opera)
+ 
+---
+
+title: Démo 1
+subtitle: Développement Web classique
+class: segue dark nobackground
+ 
+---
+
+title: Démo 2
+subtitle: Développement Web mobile
 class: segue dark nobackground
 
 ---
 
-title: Agenda
-class: big
-build_lists: true
+title: Développement Web mobile
 
-Things we'll cover (list should build):
-
-- Bullet1
-- Bullet2
-- Bullet3
+[Webcam](webcam.html)
 
 ---
 
-title: Today
-class: nobackground fill
+title: Liens utiles
 
-![Many kinds of devices.](image.png)
-
-<footer class="source">source: place source info here</footer>
-
----
-
-title: Big Title Slide
-class: title-slide
-
----
-
-title: Code Example
-
-Media Queries are sweet:
-
-<pre class="prettyprint" data-lang="css">
-@media screen and (max-width: 640px) {
-  #sidebar { display: none; }
-}
-</pre>
-
----
-
-title: Once more, with JavaScript
-
-<pre class="prettyprint" data-lang="javascript">
-function isSmall() {
-  return window.matchMedia("(min-device-width: ???)").matches;
-}
-
-function hasTouch() {
-  return Modernizr.touch;
-}
-
-function detectFormFactor() {
-  var device = DESKTOP;
-  if (hasTouch()) {
-    device = isSmall() ? PHONE : TABLET;
-  }
-  return device;
-}
-</pre>
-
----
-
-title: Centered content
-content_class: flexbox vcenter
-
-This content should be centered!
+- [Page officielle](https://developers.google.com/chrome-developer-tools/)
+- [Explore and Master Chrome DevTools](http://discover-devtools.codeschool.com/) (Code School)
+- [API de la Console](https://developers.google.com/chrome-developer-tools/docs/console-api)

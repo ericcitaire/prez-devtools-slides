@@ -43,25 +43,113 @@ URL: https://code.google.com/p/io-2012-slides
   </hgroup>
 </slide>
 
-{% for slide in slides %}
-<slide {% if slide.class %}class="{{- slide.class -}}"{% endif %} {% if slide.image %}style="background-image: url({{- slide.image -}})"{% endif %}>
-  {% if 'segue' in slide.class %}
+
+<slide  >
+  
+    <hgroup>
+      <h2>DevTools, à quoi ça sert?</h2>
+      <h3></h3>
+    </hgroup>
+    <article ><ul class="build">
+<li>Débugger</li>
+<li>Inspecter</li>
+<li>Mesurer</li>
+<li>Prototyper</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Un peu d'histoire</h2>
+      <h3></h3>
+    </hgroup>
+    <article ><p><a href="http://evolutionofweb.appspot.com/#/evolution/day">Evolution des navigateurs et technos Web</a></p>
+<p><img alt="Evolution des navigateurs et technos Web" src="images/evolutionofweb.png" /></p></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Les Developer Tools: une grande famille</h2>
+      <h3></h3>
+    </hgroup>
+    <article ><ul>
+<li>Firebug (extension Firefox)</li>
+<li>Chrome Developer Tools</li>
+<li>Firefox Developer Tools</li>
+<li>IE Developer Tools</li>
+<li>Safari Developer Tools</li>
+<li>Opera Dragonfly</li>
+<li>Firebug Lite (extension IE, Safari, Chrome, Opera)</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Les Developer Tools: une grande famille</h2>
+      <h3></h3>
+    </hgroup>
+    <article ><ul>
+<li>Firebug (extension Firefox)</li>
+<li>Chrome Developer Tools</li>
+<li>Firefox Developer Tools</li>
+<li>IE Developer Tools</li>
+<li>Safari Developer Tools</li>
+<li>Opera Dragonfly</li>
+<li>Firebug Lite (extension IE, Safari, Chrome, Opera)</li>
+</ul></article>
+ 
+</slide>
+
+<slide class="segue dark nobackground" >
+  
     <aside class="gdbar"><img src="images/logo_mediametrie_rvb_icon.png"></aside>
     <hgroup class="auto-fadein">
-      <h2>{{- slide.title -}}</h2>
-      <h3>{{- slide.subtitle -}}</h3>
+      <h2>Démo 1</h2>
+      <h3>Développement Web classique</h3>
     </hgroup>
-  {% else %}
-    <hgroup>
-      <h2>{{- slide.title -}}</h2>
-      <h3>{{- slide.subtitle -}}</h3>
-    </hgroup>
-    <article {% if slide.content_class %}class="{{- slide.content_class -}}"{% endif %}>
-    {{- slide.content -}}
-    </article>
- {% endif %}
+  
 </slide>
-{% endfor %}
+
+<slide class="segue dark nobackground" >
+  
+    <aside class="gdbar"><img src="images/logo_mediametrie_rvb_icon.png"></aside>
+    <hgroup class="auto-fadein">
+      <h2>Démo 2</h2>
+      <h3>Développement Web mobile</h3>
+    </hgroup>
+  
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Développement Web mobile</h2>
+      <h3></h3>
+    </hgroup>
+    <article ><p><a href="webcam.html">Webcam</a></p></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Liens utiles</h2>
+      <h3></h3>
+    </hgroup>
+    <article ><ul>
+<li><a href="https://developers.google.com/chrome-developer-tools/">Page officielle</a></li>
+<li><a href="http://discover-devtools.codeschool.com/">Explore and Master Chrome DevTools</a> (Code School)</li>
+<li><a href="https://developers.google.com/chrome-developer-tools/docs/console-api">API de la Console</a></li>
+</ul></article>
+ 
+</slide>
+
 
 <slide class="thank-you-slide segue nobackground">
   <aside class="gdbar right"><img src="images/logo_mediametrie_rvb_icon.png"></aside>

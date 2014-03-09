@@ -2,7 +2,7 @@ var SLIDE_CONFIG = {
   // Slide settings
   settings: {
     title: 'Chrome DevTools',
-    subtitle: 'peut faire tout ça ???',
+    subtitle: 'Développement Web',
     eventTitle: 'Campus Dev du 10 mars 2014',
     useBuilds: true, // Default: true. False will turn off slide animation builds.
     usePrettify: true, // Default: true
